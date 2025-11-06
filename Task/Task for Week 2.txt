@@ -7,27 +7,27 @@ Week 2 Concepts
 
 Inheritance
 
-1. Create a class Animal with a method makeSound(). Then create a subclass Dog that overrides makeSound() to print "Bark".
-2. Build a class Person with a method displayInfo(). Extend it with a class Student that adds a rollNumber and overrides displayInfo().
-3. Write a base class Shape with a method area(). Create a subclass Circle that calculates area using radius.
+1. Create a class Device with method start(). Subclass Phone and Laptop override start() with different messages.
+2. Make a class Animal with method sound(). Subclass Cow and Lion override sound() to print their own sounds.
+3. Create a class Game with method play(). Subclass Football and Chess override play() with their own rules.
 
 
-abstraction
+Abstraction
 
-1. Create an abstract class Vehicle with an abstract method startEngine(). Implement it in a class Bike.
-2. Make an abstract class Employee with a method calculateSalary(). Implement it in FullTimeEmployee and PartTimeEmployee.
-3. Design an abstract class MediaPlayer with a method play(). Implement it in AudioPlayer and VideoPlayer.
+1. Create an abstract class Transport with abstract method fuelType(). Subclass Car and Train implement it with different fuel types.
+2. Abstract class Document with method print(). Subclass PDF and WordDoc implement print() differently.
+3. Abstract class Appliance with method operate(). Subclass Fan and WashingMachine show different operations.
 
 
 Encapsulation
 
-1. Create a class Account with private field balance. Add deposit() and getBalance() methods.
-2. Build a class Book with private fields title and author. Use getters and setters to access them.
-3. Create a class Temperature with a private field celsius. Add a method to convert it to Fahrenheit.
+1. Class Mobile with private field batteryLevel. Add method to charge and check battery.
+2. Class User with private fields username and password. Add methods to update and validate password.
+3. Class Movie with private field rating. Add method to set rating only between 1 and 5.
 
 
 Collection
 
-1. Use a List to store 5 integers. Write code to find the largest number.
-2. Create a HashMap to store student names and their marks. Print all entries.
-3. Use a Set to store unique city names. Try adding duplicate cities and print the set.
+1. Use ArrayList<String> to store names of fruits. Add, remove, and display them.
+2. Use HashMap<String, String> to store country and capital. Print all entries.
+3. Use LinkedList<String> to simulate a playlist. Add songs and play them in order.
