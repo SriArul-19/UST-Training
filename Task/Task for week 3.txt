@@ -1,0 +1,27 @@
+1. Thread- variable, method, state, creation(Class Thread, Interface Runnable)
+
+2. Synchronization- types(method, static, block)
+
+3. Semi-structured data in java- JSON,XML
+
+4. File concept- byte oriented(FileInputStream, FileOutputStream), Character oriented(FileReader, FileWriter)
+
+5. JavaBean and POJO
+
+6. Serialization- example for serialization, marker, transient, stream
+
+7. Testing- JUnit, Mockito
+
+8. Method reference- instance method reference, constructor reference, static method reference
+
+8. getting input- Scanner, BufferReader, DataInputStream, Console
+
+9. Printing output- PrintStream, System.out.println(), forEach() with consumer object, iterator
+
+10. Java Features- record, Sealed
+
+11. SQL Commands- DDL, DML, TCL, DQL, DCL
+
+12. SQL Joins- inner, left, right, full outer
+
+13. Query tunning
